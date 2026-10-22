@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "spellbook_mod",
+  "version": "${mod_version}",
+  "name": "Spellbook Mod",
+  "description": "A mod that adds a spellbook item with various spells.",
+  "authors": ["EnderDevelopment"],
+  "contact": {
+    "homepage": "https://enderdevelopment.com",
+    "sources": "https://github.com/enderdevelopment/spellbook-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/spellbook_mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.spellbookmod.SpellbookMod"
+    ]
+  },
+  "mixins": [
+    "spellbook_mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.20.1"
+  }
+}
