@@ -1,21 +1,21 @@
 # Spellbook Mod
 
-The Spellbook Mod is a Minecraft mod that adds a magical spellbook item to the game. When you spawn, a spellbook appears in your inventory. If you hold it in your off-hand, it opens a GUI displaying various spells you can cast, such as fireball, lightning, fling, control, and explode. Each spell has a custom 3D model and texture. Pressing shift and right-click allows you to switch spells, while a normal right-click casts the selected spell. The spellbook has a 2-second cooldown between casts. This mod is compatible with Minecraft version 1.20.1.
+The Spellbook Mod is a Minecraft mod that adds a magical spellbook item to the game. This spellbook, when held in the off-hand, displays a list of spells that can be cast. The available spells include fireball, lightning, fling, control, and explode. Each spell has a custom texture and 3D model. The mod is designed for Minecraft version 1.20.1 and is built using the Fabric mod loader.
 
 ## Install
 
-1. Download the mod file from the [releases page](https://github.com/enderdevelopment/spellbook-mod/releases).
+1. Download the mod file from the [GitHub repository](https://github.com/enderdevelopment/spellbook-mod).
 2. Place the downloaded file in the `mods` folder of your Minecraft instance.
-3. Launch Minecraft and ensure the mod is loaded.
+3. Launch Minecraft with the Fabric mod loader installed.
 
 ## Use
 
-1. Spawn in a Minecraft world.
+1. Obtain the spellbook item in-game.
 2. Hold the spellbook in your off-hand to open the spell selection GUI.
-3. Use the GUI to select a spell.
-4. Press shift and right-click to switch spells.
-5. Press right-click to cast the selected spell.
-6. Wait for the 2-second cooldown before casting another spell.
+3. Use the mouse to select a spell from the GUI.
+4. Press the right mouse button to cast the selected spell.
+5. Press the right mouse button while sneaking (holding shift) to cycle through the available spells.
+6. Each spell has a 2-second cooldown before it can be used again.
 
 ---
 
